@@ -61,18 +61,33 @@ for i in range(2000):  # simulate 2000 time steps
     st.session_state.df["Anomaly"] = model.fit_predict(st.session_state.df[["Temp_Roll"]])
     st.session_state.df["Anomaly_Color"] = st.session_state.df["Anomaly"].map({1: "blue", -1: "red"})
     
-    # -----------------------------
-    # Update plot
-    # -----------------------------
-    fig, ax = plt.subplots(figsize=(12,5))
-    ax.plot(st.session_state.df.index, st.session_state.df["Temp_Roll"], label="Rolling Avg", color="green", linewidth=2)
-    ax.scatter(st.session_state.df.index, st.session_state.df["Temperature"], c=st.session_state.df["Anomaly_Color"])
-    ax.set_title("Live IoT Temperature Sensor Readings")
-    ax.set_xlabel("Time")
-    ax.set_ylabel("Temperature (°C)")
-    ax.legend()
-    
-    plot_area.pyplot(fig)
+# -----------------------------
+# Update plot
+# -----------------------------
+fig, ax = plt.subplots(figsize=(12,5))
+ax.plot(
+    st.session_state.df.index, 
+    st.session_state.df["Temp_Roll"], 
+    label="Rolling Avg", 
+    color="green", 
+    linewidth=2
+)
+ax.scatter(
+    st.session_state.df.index, 
+    st.session_state.df["Temperature"], 
+    c=st.session_state.df["Anomaly_Color"]
+)
+ax.set_title("Live IoT Temperature Sensor Readings")
+ax.set_xlabel("Time")
+ax.set_ylabel("Temperature (°C)")
+ax.legend()
+
+# Display figure in Streamlit
+st.pyplot(fig)
+
+# Close the figure to free memory
+plt.close(fig)
+
     
     # -----------------------------
     # Update anomaly table
