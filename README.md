@@ -41,12 +41,16 @@ Check out the interactive dashboard here: [Live App](https://share.streamlit.io/
 ---
 
 ## 📂 Project Structure
-│app.py # Main Streamlit app
-│requirements.txt # Dependencies
-│README.md # Project documentation
-│.gitignore # Files to ignore
+│app.py
+
+│requirements.txt
+
+│README.md 
+
+│.gitignore 
+
 └── screenshots/
-└── demo.gif # Placeholder for dashboard GIF
+└── demo.gif 
 
 ## 📸 Screenshots
 
