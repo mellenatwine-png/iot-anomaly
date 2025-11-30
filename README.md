@@ -53,12 +53,11 @@ Check out the interactive dashboard here: [Live App](https://share.streamlit.io/
 
 └── demo.gif 
 
-## 📸 Screenshots
+## 📸 Screenshots / GIF
 
 
-| Dashboard Example | Live Anomaly View |
-|--------------|--------------|
-| *(Image here)* | *(GIF here)* |
+![Dashboard Demo](screenshots/demo.gif)
+![Another View](screenshots/another_screenshot.png)
 
 ---
 
