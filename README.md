@@ -49,7 +49,8 @@ Check out the interactive dashboard here: [Live App](https://share.streamlit.io/
 
 │.gitignore 
 
-└── screenshots/
+└── screenshots
+
 └── demo.gif 
 
 ## 📸 Screenshots
