@@ -1,3 +1,7 @@
+## 🌐 Live Demo
+
+Check out the interactive dashboard here: [Live App](https://share.streamlit.io/your-username/iot-anomaly/main/app.py)
+
 # 📡 Real-Time IoT Temperature Anomaly Detection
 
 An interactive dashboard that simulates real-time IoT sensor data and detects temperature anomalies using Machine Learning (Isolation Forest). Designed to demonstrate data streaming, anomaly detection, and interactive visualization skills — all in one project.
