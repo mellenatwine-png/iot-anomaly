@@ -68,3 +68,10 @@ Check out the interactive dashboard here: [Live App](https://share.streamlit.io/
 
 ```bash
 pip install -r requirements.txt
+
+## 👤 Author
+
+**Mellen Atwine**  
+Aspiring Data Scientist & Electrical Engineer  
+📍 UK | 📧 mellenatwine151@gmail.com  
+🔗 [GitHub](https://github.com/mellenatwine-png) | [LinkedIn](www.linkedin.com/in/mellen-atwine-32708b206)
