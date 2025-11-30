@@ -69,7 +69,7 @@ Check out the interactive dashboard here: [Live App](https://share.streamlit.io/
 ```bash
 pip install -r requirements.txt
 
-
+```
 ---
 
 ## 👤 Author
